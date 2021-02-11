@@ -276,7 +276,7 @@ Let's be sure about it by deliberatly using a certain bootstrap classes.
 
 ### Adjust **webpack.config.js** so that it is this:
 
-```json
+```javascript
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
