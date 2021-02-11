@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+
+<body>
+    <div class="container mt-sm-2 p-sm-4">
+        <nav class="navbar navbar-expand-sm bg-light navbar-light">
+            <span class="navbar-brand tertiaryFont">Distance Converter</span>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-success font-weight-bolder" href="#">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div class="container">
+            <label for="distanceMiles">Distance in Miles:</label>
+            <input type="text" class="form-control" id="distanceMiles" name="distanceMiles">
+
+            <button id="submitID" type="submit" class="btn btn-outline btn-outline-success mt-2">Convert to Kilometers</button>
+
+            <div class="pt-5 pb-5">
+                <h5 id="answerID" class="font-weight-bold"></h5>
+            </div>
+        </div>
+    </div>
+
+    <footer class="mt-5">
+        <div class="container">
+            <div class="jumbotron mb-0">
+                <h4 class="font-weight-bold text-center tertiaryFont mt-5">GENTLE STRIDES TOWARDS WEBPACK</h4>
+                <h6 class="lead text-center mt-0">Bundling bootstrap and a JS module <small>using webpack</small></h6>
+                <h6 class="lead text-center mt-0"><small><a class="nav-link" href="https://twitter.com/JWokiri" title="Connect in Twitter.">myTwitter</a></small></h6>
+            </div>
+        </div>
+</footer>
+
+</body>
+
+</html>
